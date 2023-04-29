@@ -1,0 +1,349 @@
+body {
+font-family: "Montserrat", Arial;
+background-image: url("./chopperbackground.jpg");
+background-size: cover;
+}
+
+.container {
+    margin-top: 150px;
+    width: 100%;
+    max-width: 1200px
+    
+}
+
+
+li {
+    list-style: none;
+    color: white;
+
+}
+
+ul {
+    padding: 30px;
+    background-color: rgb(28,28,28);
+    opacity: .8;
+}
+
+.headerlink {
+    text-decoration: none;
+    color: gray;
+    font-size: 16px;
+    padding: 10px 20px;
+}
+
+.headerlink:hover {
+    color: violet;
+
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    margin-left: 11px;
+    
+}
+
+a:hover {
+    color: violet;
+}
+
+.img1 {
+    width: 90px;
+    height: 80px;
+    margin-left: 40px;
+}
+
+.img2  {
+    width: 140px;
+    height: 60px;
+
+}
+
+
+*{
+    box-sizing: border-box;
+  }
+  .search-box{
+    width: fit-content;
+    height: fit-content;
+    position: relative;
+    
+  }
+  .input-search{
+    background-image: url("./searchbutton.png");
+    background-size: cover;
+    margin-left: 59px;
+    margin-top: 20px;
+    height: 50px;
+    width: 50px;
+    border-style: none;
+    font-size: 18px;
+    letter-spacing: 2px;
+    outline: none;
+    border-radius: 25px;
+    transition: all .5s ease-in-out;
+    background-color: rgb(215, 88, 219);;
+    color: black;
+  }
+  .input-search::placeholder{
+    margin-left: 100px;
+    font-size: 18px;
+    letter-spacing: 2px;
+    font-weight: 100;
+   
+  }
+  .btn-search{
+    
+    width: 50px;
+    height: 50px;
+    border-style: none;
+    font-size: 20px;
+    font-weight: bold;
+    outline: none;
+    cursor: pointer;
+    border-radius: 50%;
+    position: absolute;
+    color:#ffffff ;
+    background-color:transparent;
+    
+  }
+  .btn-search:focus ~ .input-search{
+    width: 300px;
+    border-radius: 0px;
+    background-color: transparent;
+    border-bottom:1px solid rgba(255,255,255,.5);
+    background-image: none;
+  }
+ 
+
+  .input-search:focus{
+    background-image: none;
+    width: 300px;
+    border-radius: 0px;
+    background-color: transparent;
+    border-bottom:1px solid rgba(255,255,255,.5);
+    transition: all 500ms cubic-bezier(0, 0.110, 0.35, 2);
+  }
+
+
+  .topsearch {
+    color: white;
+    margin-left: 50px;
+    font-size: 15px;
+    margin-top: 50px;
+    width: 590px;
+    border-style: outset;
+    border-radius: 10px;
+    border-width: 4px;
+    border-color: gray;
+    padding: 20px;
+    
+  }
+
+
+.action-button{
+    border-style: solid;
+    background: lightpink;
+    border-radius: 0 0 30px 30px;
+    display: block;
+    border-radius: 0;
+    padding: 15px 20px;
+    font-weight: 600;
+    box-shadow: none ;
+    border-radius: 30px;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    text-align: center;
+}
+
+.action-button:hover{
+    width: 550px;
+    transition: all 500ms cubic-bezier(0, 0.110, 0.35, 2);
+    
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    height: 400px;
+    width: 900px;
+    row-gap: 5px;
+    grid-template-columns: 311px 311px 311px 311px;
+   
+}
+
+.grid-item {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border: 4px outset rgba(0, 0, 0, 0.8);
+    padding: 50px;
+    font-size: 30px;
+    text-align: center;
+
+}
+
+.grid-item-onepiece {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border: 10px outset lightpink;
+    padding: 50px;
+    font-size: 30px;
+    text-align: center;
+    background-image: url("./one\ piece.jpg");
+    background-size: cover;
+
+}
+
+.grid-item-bleach {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    background-image: url("./bleach.png");
+    background-size: cover;
+    border: 10px inset lightpink;
+    padding: 50px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.grid-item-blackclover {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border: 10px outset lightpink;
+    padding: 50px;
+    font-size: 30px;
+    text-align: center;
+    background-image: url("./blackclover.jpg");
+    background-size: cover;
+}
+
+.grid-item-naruto {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    background-image: url("./naruto.jpg");
+    background-size: cover;
+    border: 10px inset lightpink;
+    padding: 50px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.grid-item-mystar {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    background-image: url("./mystar.jpg");
+    background-size: cover;
+    border: 10px inset lightpink;
+    padding: 50px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.grid-item-vinlandsaga {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    background-image: url("./vinlandsaga.jpg");
+    background-size: cover;
+    border: 10px outset lightpink;
+    padding: 50px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.grid-item-hellsparadise {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    background-image: url("./hellsparadie.png");
+    background-size: cover;
+    border: 10px inset lightpink;
+    padding: 50px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.grid-item-demonslayer {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    background-image: url("./demonslayer.png");
+    background-size: cover;
+    border: 10px outset lightpink;
+    padding: 50px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.grid-item-attackontitan {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    background-image: url("./attackontitan.jpg");
+    background-size: cover;
+    border: 10px outset lightpink;
+    padding: 50px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.grid-item-fma {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    background-image: url("./fma.jpeg");
+    background-size: cover;
+    border: 10px inset lightpink;
+    padding: 50px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.grid-item-deathnote {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    background-image: url("./deathnote.jpg");
+    background-size: cover;
+    border: 10px outset lightpink;
+    padding: 50px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.grid-item-hunterxhunter {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    background-image: url("./hunterxhunter.jpg");
+    background-size: cover;
+    border: 10px inset lightpink;
+    padding: 50px;
+    font-size: 30px;
+    text-align: center;
+}
+
+h1 {
+    color: black;
+    margin-left: 20px;
+}
